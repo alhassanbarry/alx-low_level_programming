@@ -2,7 +2,7 @@
 
 /**
  * cap_string - capitalizes all words of a string
- * @str: the string to be capitalized
+ * @str: The string to be capitalized
  *
  * Return: a pointer to the changed string
  */
