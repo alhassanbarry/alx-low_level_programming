@@ -5,10 +5,8 @@
  * print_buffer - prints buffer
  * @b: buffer
  * @size: size
- *
  * Return: void
  */
-
 void print_buffer(char *b, int size)
 {
 	int o, j, i;
@@ -27,13 +25,9 @@ void print_buffer(char *b, int size)
 		for (i = 0; i < 10; i++)
 		{
 			if (i < j)
-			{
 				printf("%02x", *(b + o + i));
-			}
 			else
-			{
 				printf(" ");
-			}
 			if (i % 2)
 			{
 				printf(" ");
